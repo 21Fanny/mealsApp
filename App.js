@@ -5,7 +5,9 @@ import CategoriesScreen from './screens/CategoriesScreens'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import MealsOverviewScreen from './screens/MealsOverviewScreen'
-import MealDetailScreen from './screens/MealDetailScreen'
+import MealDetailScreen from './screens/MealDetailsScreen'
+
+const Stack = createStackNavigator()
 
 export default function App () {
   return (
