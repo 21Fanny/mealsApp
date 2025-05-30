@@ -9,7 +9,7 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability }){
     const navigation = useNavigation()
    
     function selectMealItemHandler(){
-        navigation.navigate('MealDetails', { mealId: id})
+        navigation.navigate('Film Details', { mealId: id})
     }
 
     return(
@@ -48,9 +48,9 @@ const styles = StyleSheet.create({
         margin: 16,
         borderRadius: 8,
         overflow: Platform.OS === 'android' ? 'hidden' : 'visible',
-        backgroundColor:'white',
+        backgroundColor:'black',
         elevation: 4,
-        shadowColor: 'black',
+        shadowColor: 'white',
         shadowOpacity: 0.25,
         shadowOffset: { width: 0, height: 2},
         shadowRadius: 8,

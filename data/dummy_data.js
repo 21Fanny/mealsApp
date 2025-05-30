@@ -2,15 +2,16 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'Terror', '#f5428d'),
-  new Category('c2', 'Accion', '#f54242'),
-  new Category('c3', 'Aventura', '#f5a442'),
-  new Category('c4', 'Ciencia Ficcion', '#f5d142'),
-  new Category('c5', 'Comedia', '#368dff'),
-  new Category('c6', 'Romance', '#41d95d'),
-  new Category('c7', 'Drama', '#9eecff'),
-  new Category('c8', 'Musical', '#b9ffb0'),
-  new Category('c9', 'Belico', '#ffc7ff')
+  new Category('c1', 'Terror', '#222831'),       
+  new Category('c2', 'Accion', '#393E46'),       
+  new Category('c3', 'Aventura', '#948979'),    
+  new Category('c4', 'Ciencia Ficcion', '#DFD0B8'), 
+  new Category('c5', 'Comedia', '#222831'),      
+  new Category('c6', 'Romance', '#393E46'),     
+  new Category('c7', 'Drama', '#948979'),        
+  new Category('c8', 'Musical', '#DFD0B8'),      
+  new Category('c9', 'Belico', '#222831'),      
+  new Category('c10', 'Suspenso', '#393E46')     
 ];
 
 export const MEALS = [
@@ -18,10 +19,32 @@ export const MEALS = [
     'm1',
     ['c1'],
     'Sinister',
-    'asdf',
-    'ghfj',
+    'Terror',
+    '2012',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    20,
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
+    'm1',
+    ['c1'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
     [
       'Siniestro es considerada la película más aterradora del mundo',
        'según la ciencia'
@@ -40,6 +63,8 @@ export const MEALS = [
     'm2',
     ['c2'],
     'Avatar',
+    'Accion',
+    '2009',
     'https://es.web.img3.acsta.net/medias/nmedia/18/92/13/82/20182449.jpg',
     10,
     [
@@ -61,9 +86,33 @@ export const MEALS = [
   ),
 
   new Meal(
+    'm1',
+    ['c2'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
     'm3',
     ['c3'],
     'Indiana Jones',
+    'Aventura',
+    '1981',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoQr46eBhN19qC24H3VJsx8zfyKjF_mHo1DQ&s',
     45,
     [
@@ -83,9 +132,33 @@ export const MEALS = [
   ),
 
   new Meal(
+    'm1',
+    ['c3'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
     'm4',
     ['c4'],
     'Star Wars',
+    'Ciencia Ficcion',
+    '1977',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHPspGkemYir9hh2-Jw7U8SPoQsXZZu2_2eQ&s',
     60,
     [
@@ -107,9 +180,33 @@ export const MEALS = [
   ),
 
   new Meal(
+    'm1',
+    ['c4'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
     'm5',
     ['c5'],
     'SuperCool',
+    'Comedia',
+    '2007',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7R7Fs7VaIjcsBK5ErCD_zunK-FvtI2M6iQ&s',
     15,
     [
@@ -131,9 +228,33 @@ export const MEALS = [
   ),
 
   new Meal(
+    'm1',
+    ['c5'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
     'm6'
     ['c6'],
     'El diario de una pasion',
+    'Romance',
+    '2007',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rZmPiB6k0IG3N9O3qPUDCEfgLb-O8mhGsQ&s',
     240,
     [
@@ -153,9 +274,33 @@ export const MEALS = [
   ),
 
   new Meal(
+    'm1',
+    ['c6'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
     'm7',
     ['c7'],
     'El Padrino',
+    'Drama',
+    '1972',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhp2Jihs_Echygl5lbAGJWEmQaTkRNvS9qgA&s',
     20,
     [
@@ -173,29 +318,44 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm8',
-    ['c8'],
-    'Creamy Indian Chicken Curry',
-    'pricey',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
-    35,
+    'm1',
+    ['c7'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
     [
-      '4 Chicken Breasts',
-      '1 Onion',
-      '2 Cloves of Garlic',
-      '1 Piece of Ginger',
-      '4 Tablespoons Almonds',
-      '1 Teaspoon Cayenne Pepper',
-      '500ml Coconut Milk'
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
     ],
     [
-      'Slice and fry the chicken breast',
-      'Process onion, garlic and ginger into paste and sauté everything',
-      'Add spices and stir fry',
-      'Add chicken breast + 250ml of water and cook everything for 10 minutes',
-      'Add coconut milk',
-      'Serve with rice'
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
+    'm8',
+    ['c8'],
+    'Mary Poppins',
+    'Musical',
+    '1964',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrUDIfiIfDQSkO6q9CF3jDD9sS859qqbpc4Hd_scAGhyF83Lepf0KNQW1iep7enxzH_qiiVwblY6Z9CI6YB7ScAIaVvrcJvc7WJaDNyw',
+    35,
+    [
+      'Mary Poppins es una película musical de fantasía estadounidense, dirigida por Robert Stevenson, producida por Walt Disney',
+       'y con canciones escritas por los hermanos Sherman, estrenada en 1964. '
+    ],
+    [
+      'La vida de dos niños rebeldes que pretenden llamar la atención', 
+      'de sus padres haciendo la vida imposible a todas las niñeras', 
+      'se verá alterada con la llegada de Mary Poppins, una institutriz', 
+      'que baja de las nubes usando su paraguas como paracaídas.'
     ],
     true,
     false,
@@ -204,76 +364,111 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm9',
-    ['c9'],
-    'Chocolate Souffle',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
-    45,
+    'm1',
+    ['c8'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
     [
-      '1 Teaspoon melted Butter',
-      '2 Tablespoons white Sugar',
-      '2 Ounces 70% dark Chocolate, broken into pieces',
-      '1 Tablespoon Butter',
-      '1 Tablespoon all-purpose Flour',
-      '4 1/3 tablespoons cold Milk',
-      '1 Pinch Salt',
-      '1 Pinch Cayenne Pepper',
-      '1 Large Egg Yolk',
-      '2 Large Egg Whites',
-      '1 Pinch Cream of Tartar',
-      '1 Tablespoon white Sugar'
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
     ],
     [
-      'Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.',
-      'Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.',
-      'Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.',
-      'Place chocolate pieces in a metal mixing bowl.',
-      'Place bowl over a pan of about 3 cups hot water over low heat.',
-      'Melt 1 tablespoon butter in a skillet over medium heat. Sprinkle in flour. Whisk until flour is incorporated into butter and mixture thickens.',
-      'Whisk in cold milk until mixture becomes smooth and thickens. Transfer mixture to bowl with melted chocolate.',
-      'Add salt and cayenne pepper. Mix together thoroughly. Add egg yolk and mix to combine.',
-      'Leave bowl above the hot (not simmering) water to keep chocolate warm while you whip the egg whites.',
-      'Place 2 egg whites in a mixing bowl; add cream of tartar. Whisk until mixture begins to thicken and a drizzle from the whisk stays on the surface about 1 second before disappearing into the mix.',
-      'Add 1/3 of sugar and whisk in. Whisk in a bit more sugar about 15 seconds.',
-      'whisk in the rest of the sugar. Continue whisking until mixture is about as thick as shaving cream and holds soft peaks, 3 to 5 minutes.',
-      'Transfer a little less than half of egg whites to chocolate.',
-      'Mix until egg whites are thoroughly incorporated into the chocolate.',
-      'Add the rest of the egg whites; gently fold into the chocolate with a spatula, lifting from the bottom and folding over.',
-      'Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.',
-      'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.'
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
+  new Meal(
+    'm9',
+    ['c9'],
+    'Rescatando al soldado Ryan',
+    'Belico',
+    '1998',
+    'https://i.ytimg.com/vi/XhbUUS1GT0Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDBVp4TpFxmdUMdBdyhCvLj0pJ3Dg',
+    45,
+    [
+      'Es una película bélica épica estadounidense estrenada en 1998 y ambientada en la invasión de Normandía durante la Segunda Guerra Mundial.'
+    ],
+    [
+      'Después de desembarcar en Normandía, en plena Segunda Guerra Mundial ',  
+      'unos soldados norteamericanos deben arriesgar sus vidas para salvar al soldado James Ryan ',  
+      'cuyos tres hermanos han muerto en la guerra.'
     ],
     true,
     false,
     true,
     false
   ),
+
+  new Meal(
+    'm1',
+    ['c9'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
+    true,
+    true,
+    true
+  ),
+
   new Meal(
     'm10',
-    ['c2', 'c5', 'c10'],
-    'Asparagus Salad with Cherry Tomatoes',
-    'luxurious',
-    'simple',
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    ['c10'],
+    'No respires',
+    'Suspenso',
+    '2016',
+    'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOp0BZyuS4WiVFAXbApIwlorTDFy9bXxTw2Re5BPLUV9UksORptK8ixtL90ftSZBBSIZ_zku-oZ-vCyaWzeKU-DzPd9Ms72RXzt0i6Bfk',
     30,
     [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
+      'No Respires Dont Breathe, título original en inglés es una película estadounidense de terror', 
+      'y acción dirigida por Federico Álvarez y escrita por el mismo Álvarez y Rodo Sayagues.'
     ],
     [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
+      'Rocky, Alex y Money ya han robado casas en otras ocasiones. Ahora preparan un nuevo golpe, el que permitirá a Rocky', 
+      'salir de Detroit y salvar a su hermana pequeña del maltrato de su madre y de una vida sin futuro. Su siguiente objetivo', 
+      'será la casa medio abandonada de un hombre ciego que es poseedor de una pequeña fortuna.'
     ],
     true,
+    true,
+    true,
+    true
+  ),
+  
+  new Meal(
+    'm1',
+    ['c10'],
+    'Sinister',
+    'Terror',
+    '2012',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
+    110,
+    [
+      'Siniestro es considerada la película más aterradora del mundo',
+       'según la ciencia'
+    ],
+    [
+      'Narra las vivencias del escritor Ellison Oswalt', 
+      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+    ],
+    false,
     true,
     true,
     true
