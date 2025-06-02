@@ -40,18 +40,16 @@ export const MEALS = [
   new Meal(
     'm1',
     ['c1'],
-    'Sinister',
+    'The Exorcist',
     'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    '1973',
+    'https://pics.filmaffinity.com/El_exorcista-388290616-large.jpg',
+    121,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Una actriz llama a unos sacerdotes jesuitas para que intenten terminar con la posesión demoníaca de su hija de 12 años.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'Regan, una niña de doce años, sufre fenómenos paranormales como la levitación o la manifestación de una fuerza sobrehumana. Su madre, aterrorizada, tras someter a su hija a múltiples análisis médicos que no ofrecen ningún resultado, acude a un sacerdote con estudios de psiquiatría. Éste, convencido de que el mal no es físico sino espiritual, cree que se trata de una posesión diabólica, y decide practicar un exorcismo... Adaptación de la novela de William Peter Blatty que se inspiró en un exorcismo real ocurrido en Washington en 1949.'
     ],
     false,
     true,
@@ -86,20 +84,20 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm2',
     ['c2'],
-    'Sinister',
-    'Terror',
+    'Gladiador',
+    'Accion',
     '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'https://es.web.img3.acsta.net/medias/nmedia/18/70/92/02/20149073.jpg',
+    150,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Máximo, general romano, desea volver a casa, pero el emperador Marco Aurelio quiere que',
+       'herede el imperio. Esto hace que Cómodo ordene matar a su familia. Máximo escapa de la muerte y regresa a Roma como gladiador para vengar la muerte de su familia'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'En el año 180, el Imperio Romano domina todo el mundo conocido. Tras una gran victoria sobre los',
+      ' bárbaros del norte, el anciano emperador Marco Aurelio (Richard Harris) decide transferir el ','poder a Máximo (Russell Crowe), bravo general de sus ejércitos y hombre de inquebrantable lealtad al imperio. Pero su hijo Cómodo (Joaquin Phoenix), que aspiraba al trono, no lo acepta y trata de asesinar a Máximo'
     ],
     false,
     true,
@@ -132,20 +130,18 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm3',
     ['c3'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'Piratas del Caribe: La maldicion e la Perla Negra',
+    'Aventura',
+    '2003',
+    'https://static.wikia.nocookie.net/cine/images/6/62/Piratas_del_Caribe.jpg/revision/latest?cb=20201006154235',
+    120,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'El capitán Barbossa le roba el barco al pirata Jack Sparrow y secuestra a Elizabeth, amiga de Will Turner. Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'Mar Caribe, siglo XVIII. El aventurero capitán Jack Sparrow piratea en aguas caribeñas, pero su andanzas terminan cuando su enemigo, el Capitán Barbossa, después de robarle su barco, el Perla Negra, ataca la ciudad de Port Royal y secuestra a Elizabeth Swann, la hija del Gobernador. Will Turner, amigo de la infancia de Elizabeth, se une a Jack para rescatarla y recuperar el Perla Negra. Pero Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes. El conjuro sólo puede romperse si devuelven una pieza de oro azteca y saldan una deuda de sangre. El rescate de la bella Elizabeth será una tarea difícil, pues la maldición es real y será difícil enfrentarse con quienes no pueden morir.'
     ],
     false,
     true,
@@ -180,20 +176,18 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm4',
     ['c4'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'Volver al futuro',
+    'Ciencia Ficcion',
+    '1985',
+    'https://static.wikia.nocookie.net/doblaje/images/0/08/Volver_al_Futuro_Poster.jpg/revision/latest?cb=20201122071805&path-prefix=es',
+    116,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Una máquina del tiempo transporta a un adolescente a los años 50, cuando sus padres todavía estudiaban en la secundaria.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'El adolescente Marty McFly es amigo de Doc, un científico al que todos toman por loco. Cuando Doc crea una máquina para viajar en el tiempo, un error fortuito hace que Marty llegue a 1955, año en el que sus futuros padres aún no se habían conocido. Después de impedir su primer encuentro, deberá conseguir que se conozcan y se casen; de lo contrario, su existencia no sería posible.'
     ],
     false,
     true,
@@ -228,20 +222,18 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm5',
     ['c5'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    '¿Y dónde están las rubias?',
+    'Comedia',
+    '2004',
+    'https://m.media-amazon.com/images/M/MV5BODFiMTEyY2MtOTVjOS00MTBkLWJmMWEtYjM0Njk5YjVmOGY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
+    109,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Dos torpes agentes del FBI se hacen pasar por dos chicas de la alta sociedad para investigar una serie de secuestros. No obstante, mientras preparan su plan, descubren que irrumpir en la clase privilegiada es mucho más duro de lo que creían'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'Dos ambiciosos -pero con poca fortuna- agentes del FBI (Shawn y Marlon Wayans) se hacen pasar por mujeres, novatas en la alta sociedad, en el exclusivo complejo Hamptons para investigar un círculo de secuestros. Pero mientras preparan su actuación en el mayor acontecimiento social del año se encuentran que irrumpir en la alta sociedad es mucho más duro de lo que parecía. '
     ],
     false,
     true,
@@ -274,20 +266,18 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm6',
     ['c6'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'Five Feet Apart',
+    'Romance',
+    '2019',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7DXcypez3souX6WQ0roRYL0GdqLG50qZ3A&s',
+    116,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Stella, de 17 años, está ingresada en un hospital porque padece fibrosis quística. Su monótona existencia cambia cuando llega Will, un adolescente con la misma dolencia. Sin embargo, las normas del hospital prohíben el contacto entre ellos.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'Dos adolescentes que se encuentran en el hospital, ambos con enfermedades muy graves que amenazan sus vidas, se conocen y comienzan a enamorarse. Stella Grant es la típica joven de 17 años, que vive pegada a su portátil y adora a sus amigos. Pero a diferencia de la mayoría de chicas de su edad, pasa gran parte de su tiempo en un hospital debido a la fibrosis quística que padece. Su vida está plagada de rutinas, límites y autocontrol, hasta que un paciente irresistiblemente encantador llamado Will Newman pone a prueba todo su mundo. '
     ],
     false,
     true,
@@ -320,18 +310,16 @@ export const MEALS = [
   new Meal(
     'm1',
     ['c7'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'The Fallout: La vida después',
+    'Drama',
+    '2021',
+    'https://musicart.xboxlive.com/7/2aff6300-0000-0000-0000-000000000002/504/image.jpg',
+    92,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Una estudiante comienza a reinventarse mientras reevalúa sus relaciones y su visión del mundo.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'Vada es una adolescente que trata de superar los efectos secundarios que sufre tras vivir una tragedia en su instituto. Tras esta experiencia, la relación con su familia y sus amigos, así como su forma de ver el mundo, cambiarán para siempre.'
     ],
     false,
     true,
@@ -366,18 +354,16 @@ export const MEALS = [
   new Meal(
     'm1',
     ['c8'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'Mamma Mia!',
+    'Musical',
+    '2008',
+    'https://m.media-amazon.com/images/M/MV5BMTA2MDU0MjM0MzReQTJeQWpwZ15BbWU3MDYwNzgwNzE@._V1_.jpg',
+    108,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'La historia de una futura novia tratando de encontrar a su verdadero padre contada a través de las exitosas canciones del popular grupo de los 70 ABBA.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'Donna, una hotelera independiente de las islas griegas, prepara la boda de su hija con la ayuda de dos viejos amigos. Mientras tanto, Sophie, la alegre hija de Donna, tiene su propio plan. Invita a la boda a tres hombres del pasado de su madre con la esperanza de conocer a su padre biológico para que la acompañe al altar.'
     ],
     false,
     true,
@@ -410,18 +396,16 @@ export const MEALS = [
   new Meal(
     'm1',
     ['c9'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'Hasta el último hombre',
+    'Belico',
+    '2016',
+    'https://pics.filmaffinity.com/Hasta_el_aultimo_hombre-205606610-large.jpg',
+    131,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Durante la Segunda Guerra Mundial, el médico militar y objetor de conciencia Desmond Doss se convierte inesperadamente en un héroe de la batalla de Okinawa sin empuñar ni un arma.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'La historia de Desmond T. Doss, quien, debido a que se lo prohibía su fe, combatió en la Segunda Guerra Mundial sin portar un arma. No disparó ni una bala, pero salvó a 75 personas de la muerte en la batalla de la isla de Okinawa. Gracias a su coraje, pasó de ser el objeto de las burlas de sus compañeros a reconocérsele su enorme valía con la entrega de la Medalla de Honor del Congreso, otorgada por primera vez a un objetor de conciencia.'
     ],
     false,
     true,
@@ -455,18 +439,16 @@ export const MEALS = [
   new Meal(
     'm1',
     ['c10'],
-    'Sinister',
-    'Terror',
-    '2012',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Lox2Aj57Vk6axwBt_K2dVQQynXSYwdCA9w&s',
-    110,
+    'Fragmentado',
+    'Suspenso',
+    '2016',
+    'https://m.media-amazon.com/images/M/MV5BMmViYzcyNzItNGNlOC00YmZjLWJlYWUtZjY4Mjc2OTQxNGUzXkEyXkFqcGc@._V1_.jpg',
+    116,
     [
-      'Siniestro es considerada la película más aterradora del mundo',
-       'según la ciencia'
+      'Tres mujeres son secuestradas por un hombre con un diagnóstico de 23 personalidades distintas. Deben intentar escapar antes de la aparente aparición de una nueva personalidad.'
     ],
     [
-      'Narra las vivencias del escritor Ellison Oswalt', 
-      'cuando descubre una caja con vídeos caseros que pone a su familia en peligro. Además de la cinematografía tradicional, la película usa el recurso del «metraje encontrado». ​ Exhibida en el Festival SXSW, Sinister se estrenó en el Reino Unido el 5 de octubre de 2012.'
+      'A pesar de que Kevin (James McAvoy) le ha demostrado a su psiquiatra de confianza, la Dra. Fletcher (Betty Buckley), que posee 23 personalidades diferentes, aún queda una por emerger, decidida a dominar a todas las demás. Obligado a raptar a tres chicas adolescentes encabezadas por la decidida y observadora Casey (Anya Taylor-Joy), Kevin lucha por sobrevivir contra todas sus personalidades y la gente que le rodea, a medida que las paredes de sus compartimentos mentales se derrumban. (FILMAFFINITY)'
     ],
     false,
     true,
