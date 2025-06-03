@@ -38,7 +38,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm2',
     ['c1'],
     'The Exorcist',
     'Terror',
@@ -58,7 +58,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm2',
+    'm3',
     ['c2'],
     'Avatar',
     'Accion',
@@ -84,7 +84,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm2',
+    'm4',
     ['c2'],
     'Gladiador',
     'Accion',
@@ -106,7 +106,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm3',
+    'm5',
     ['c3'],
     'Indiana Jones',
     'Aventura',
@@ -130,7 +130,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm3',
+    'm6',
     ['c3'],
     'Piratas del Caribe: La maldicion e la Perla Negra',
     'Aventura',
@@ -150,7 +150,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm4',
+    'm7',
     ['c4'],
     'Star Wars',
     'Ciencia Ficcion',
@@ -176,7 +176,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm4',
+    'm8',
     ['c4'],
     'Volver al futuro',
     'Ciencia Ficcion',
@@ -196,7 +196,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm5',
+    'm9',
     ['c5'],
     'SuperCool',
     'Comedia',
@@ -222,7 +222,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm5',
+    'm10',
     ['c5'],
     '¿Y dónde están las rubias?',
     'Comedia',
@@ -242,7 +242,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm6'
+    'm11'
     ['c6'],
     'El diario de una pasion',
     'Romance',
@@ -266,7 +266,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm6',
+    'm12',
     ['c6'],
     'Five Feet Apart',
     'Romance',
@@ -286,7 +286,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm7',
+    'm13',
     ['c7'],
     'El Padrino',
     'Drama',
@@ -308,7 +308,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm14',
     ['c7'],
     'The Fallout: La vida después',
     'Drama',
@@ -328,7 +328,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm8',
+    'm15',
     ['c8'],
     'Mary Poppins',
     'Musical',
@@ -352,7 +352,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm16',
     ['c8'],
     'Mamma Mia!',
     'Musical',
@@ -372,7 +372,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm9',
+    'm7',
     ['c9'],
     'Rescatando al soldado Ryan',
     'Belico',
@@ -394,7 +394,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm1',
+    'm18',
     ['c9'],
     'Hasta el último hombre',
     'Belico',
@@ -414,7 +414,7 @@ export const MEALS = [
   ),
 
   new Meal(
-    'm10',
+    'm19',
     ['c10'],
     'No respires',
     'Suspenso',
@@ -437,7 +437,7 @@ export const MEALS = [
   ),
   
   new Meal(
-    'm1',
+    'm20',
     ['c10'],
     'Fragmentado',
     'Suspenso',
